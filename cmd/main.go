@@ -3,8 +3,8 @@ package main
 import (
 	"github.com/akbarshoh/microOLX/api"
 	"github.com/akbarshoh/microOLX/api/handlers"
-	"github.com/akbarshoh/microOLX/protos/orderproto"
-	"github.com/akbarshoh/microOLX/protos/userproto"
+	"github.com/akbarshoh/microOLX/proto/orderproto"
+	"github.com/akbarshoh/microOLX/proto/userproto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 	"log"

@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"fmt"
-	"github.com/akbarshoh/microOLX/protos/orderproto"
-	"github.com/akbarshoh/microOLX/protos/userproto"
+	"github.com/akbarshoh/microOLX/proto/orderproto"
+	"github.com/akbarshoh/microOLX/proto/userproto"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
